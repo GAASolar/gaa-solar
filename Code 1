@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>GAA Solar</title>
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+  <button class="sticky-btn" onclick="document.getElementById('scheduler').scrollIntoView()">Book Appointment</button>
+  <header>
+    <div class="logo">GAA<span style="color:#fff">solar</span></div>
+  </header>
+  <nav>
+    <a href="#home">Home</a>
+    <a href="#residential">Residential</a>
+    <a href="#commercial">Commercial</a>
+    <a href="#battery">Battery</a>
+    <a href="#projects">Projects</a>
+    <a href="#about">About</a>
+    <a href="#contact">Contact</a>
+    <a href="#privacy">Privacy</a>
+  </nav>
+  <section id="home" class="hero">
+    <h1>Professional Solar & Battery Solutions</h1>
+    <p>Residential • Commercial • Industrial</p>
+    <video autoplay muted loop playsinline>
+      <source src="https://assets.mixkit.co/videos/preview/mixkit-solar-panel-installation-on-a-rooftop-49191-small.mp4" type="video/mp4">
+    </video>
+    <video autoplay muted loop playsinline>
+      <source src="https://assets.mixkit.co/videos/preview/mixkit-installing-a-battery-storage-system-49192-small.mp4" type="video/mp4">
+    </video>
+  </section>
+  <section id="residential"><h2>Residential Solar</h2><p>Save thousands with premium systems for your home.</p></section>
+  <section id="commercial"><h2>Commercial Solar</h2><p>Reduce costs and go green.</p></section>
+  <section id="battery"><h2>Solar Battery</h2><p>Store energy, use anytime.</p></section>
+  <section id="projects"><h2>Our Projects</h2><div class="gallery">
+    <img src="https://images.unsplash.com/photo-1509643267469-9e1d650a2be0?auto=format&fit=crop&w=800&q=80">
+    <img src="https://images.unsplash.com/photo-1597672750969-207a4b3c9c5c?auto=format&fit=crop&w=800&q=80">
+    <img src="https://images.unsplash.com/photo-1581092580489-7e663941f606?auto=format&fit=crop&w=800&q=80">
+  </div></section>
+  <section id="about"><h2>About Us</h2><p>Powering Australia for over 10 years.</p></section>
+  <section id="contact"><h2>Contact Us</h2><p>info@gaaelectrical.com.au</p></section>
+  <section id="privacy"><h2>Privacy Policy</h2><p>We respect your privacy.</p></section>
+  <section id="scheduler">
+    <h2>Book Free Consultation</h2>
+    <form>
+      <input type="text" placeholder="Full Name" required><br>
+      <input type="tel" placeholder="Phone" required><br>
+      <input type="email" placeholder="Email" required><br>
+      <input type="date" required><br>
+      <button type="submit">Book Now</button
